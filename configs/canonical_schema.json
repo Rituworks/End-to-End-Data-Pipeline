@@ -1,0 +1,9 @@
+{
+  "required_fields": [
+    "event_time",
+    "payer_id",
+    "payee_id",
+    "amount",
+    "transaction_type"
+  ]
+}

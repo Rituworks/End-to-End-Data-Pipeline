@@ -1,0 +1,12 @@
+{
+  "event_time": "step",
+  "payer_id": "nameOrig",
+  "payee_id": "nameDest",
+  "amount": "amount",
+  "payer_balance_before": "oldbalanceOrg",
+  "payer_balance_after": "newbalanceOrig",
+  "payee_balance_before": "oldbalanceDest",
+  "payee_balance_after": "newbalanceDest",
+  "transaction_type": "type",
+  "fraud_flag": "isFraud"
+}

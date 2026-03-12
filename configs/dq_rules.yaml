@@ -1,0 +1,21 @@
+rules:
+
+  - column: amount
+    condition: "amount <= 0"
+    severity: CRITICAL
+    reason: INVALID_AMOUNT
+
+  - column: amount
+    condition: "amount > 10000000"
+    severity: QUARANTINE
+    reason: AMOUNT_TOO_HIGH
+
+  - column: payer_id
+    condition: "payer_id IS NULL"
+    severity: CRITICAL
+    reason: MISSING_PAYER
+
+  - column: payee_id
+    condition: "payee_id IS NULL"
+    severity: CRITICAL
+    reason: MISSING_PAYEE

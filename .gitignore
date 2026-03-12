@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data
+lake/
+uploads_input/
+
+# Spark
+spark-warehouse/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Parquet
+*.parquet
+*.snappy
